@@ -18,6 +18,19 @@
 		<java.version>1.8</java.version>
 	</properties>
 
+	<distributionManagement>
+		<repository>
+			<id>local-nexus</id>
+			<name>Releases</name>
+			<url>http://localhost:8082/repository/maven-releases</url>
+		</repository>
+		<snapshotRepository>
+			<id>local-nexus</id>
+			<name>Snapshot</name>
+			<url>http://localhost:8082/repository/maven-snapshots</url>
+		</snapshotRepository>
+	</distributionManagement>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -35,12 +48,14 @@
 		</dependency>
 	</dependencies>
 
+
 	<build>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+
 			<plugin>
 				<groupId>org.sonatype.plugins</groupId>
 				<artifactId>nxrm3-maven-plugin</artifactId>
