@@ -19,7 +19,7 @@
 
 	<scm>
 		<connection>scm:git:https://github.com/binne101/gs_rest_hateoas.git</connection>
-	  <tag>HEAD</tag>
+
   </scm>
 
 	<distributionManagement>
