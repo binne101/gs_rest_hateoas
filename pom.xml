@@ -9,7 +9,7 @@
 	</parent>
 	<groupId>nl.pdptst</groupId>
 	<artifactId>gs_rest_hateoas</artifactId>
-	<version>0.0.8-SNAPSHOT</version>
+	<version>0.0.8</version>
 	<name>rest_hateoas</name>
 	<description>Demo project for Spring Boot</description>
 
@@ -21,7 +21,7 @@
 		<connection>scm:git:https://github.com/binne101/gs_rest_hateoas.git</connection>
 
     
-    <tag>HEAD</tag>
+    <tag>v0.0.8</tag>
   </scm>
 
 	<distributionManagement>
